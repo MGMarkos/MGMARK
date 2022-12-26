@@ -16,7 +16,16 @@ for item in song_list:
     play_list.insert(pos, item)
     pos += 1
 pygame.init()
+
+
+
 pygame.mixer.init()
+
+
+# hello 
+
+
+
 
 def play():
     pygame.mixer.music.load(play_list.get(tkr.ACTIVE))
@@ -35,6 +44,8 @@ Button4 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", 
 
 var = tkr.StringVar() 
 song_title = tkr.Label(music_player, font="Helvetica 12 bold", textvariable=var)
+
+# aasdasdsad
 
 song_title.pack()
 Button1.pack(fill="x")
